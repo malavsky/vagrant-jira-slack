@@ -1,0 +1,7 @@
+.vagrant
+htdocs/*
+!htdocs/.gitKeep
+configs/config.yml
+*~
+htdocs/web/uploads/
+.idea

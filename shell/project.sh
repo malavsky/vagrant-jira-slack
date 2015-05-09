@@ -1,0 +1,6 @@
+#!/bin/sh
+
+PROJECT_ROOT=$1
+
+cd ${PROJECT_ROOT}
+COMPOSER_PROCESS_TIMEOUT=2000 composer install

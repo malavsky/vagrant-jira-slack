@@ -1,0 +1,16 @@
+vm:
+    memory: 2048
+    cpus: 2
+    ioapic: "on"
+    box: ubuntu/trusty64
+    host_name: jiraslack.dev
+    synced_folder_from: htdocs
+    synced_folder_to: /var/www/jiraSlack
+    synced_folder_type: nfs
+    network_ip: 192.168.50.10
+git:
+    ssh_url: ~
+    http_url: github.com/malavsky/jira-slack.git
+    http_user: username
+    http_password: user_password
+
