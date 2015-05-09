@@ -8,11 +8,6 @@ HTTP_PASSWORD=$5
 
 cd ${PROJECT_ROOT};
 
-echo ${SSH_URL};
-echo ${HTTP_URL};
-echo ${HTTP_USER};
-echo ${HTTP_PASSWORD};
-
 rm -rf .gitKeep
 
 if [ ! -z "$SSH_URL" ];
