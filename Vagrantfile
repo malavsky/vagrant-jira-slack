@@ -2,7 +2,8 @@
 # vi: set ft=ruby :
 
 require 'yaml'
-configValues = YAML.load_file("configs/config.yml")
+vagrantRoot = File.dirname(__FILE__)
+configValues = YAML.load_file(vagrantRoot + "/configs/config.yml") 
 vmData = configValues['vm']
 gitData = configValues['git']
 
